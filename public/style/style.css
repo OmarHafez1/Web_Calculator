@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#form-container {
+    width: 100%;
+}
+
+#page-content {
+    width: 100%;
+}
+
+
+/* Add transition effects for body */
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Transition for form elements */
+.form-content {
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+}
+
+.result {
+    font-size: 1.7rem;
+}
+
+#theme-toggle {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
